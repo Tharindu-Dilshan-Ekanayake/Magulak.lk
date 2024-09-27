@@ -18,6 +18,9 @@ app.use(express.json()); // For parsing application/json
 app.use(express.urlencoded({ extended: true })); // For parsing application/x-www-form-urlencoded
 app.use(cookieParser());
 
+//router
+app.use('/add', require('./routes/advertisementRoute'))
+
 
 const port = 8000;
 // Starting the server

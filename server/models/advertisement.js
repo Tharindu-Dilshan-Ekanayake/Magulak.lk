@@ -9,7 +9,15 @@ const addSchema = new mongoose.Schema({
         type: String,
         required: true
     },
+    mid_name:{
+        type: String,
+        required: true
+    },
     last_name:{
+        type: String,
+        required: true
+    },
+    city:{
         type: String,
         required: true
     },
@@ -17,11 +25,24 @@ const addSchema = new mongoose.Schema({
         type: String,
         required: true
     },
-    birthday:{
+    age:{
+        type: Number,
+        required: true
+    },
+    height:{
         type: String,
         required: true
+    },
+    paid:{
+        default: false,
+        type: Boolean
+    },
+    pro:{
+        default: false,
+        type: Boolean
     }
     
-})
+    
+},{timestamps: true})
 const Add = mongoose.model('add', addSchema);
-module.export = Add;
+module.exports = Add;
