@@ -4,7 +4,7 @@ import LOGO from '../../images/LOGO.png'
 export default function HomeNav() {
   return (
     <div className='bg-[#19191A] flex justify-center items-center '>
-      <div className='flex items-center justify-between border w-[1280px] px-5'>
+      <div className='flex items-center justify-between  w-[1280px] px-5'>
         <div>
           <img src={LOGO} alt='logo' className='h-[70px]'></img>
         </div>

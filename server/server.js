@@ -6,7 +6,7 @@ const cookieParser = require('cookie-parser');
 // Initialize the app before using it
 const app = express();
 
-console.log("hi mfkr", process.env.REACT_A);
+console.log("hii mfkr", process.env.REACT_A);
 
 mongoose
   .connect(process.env.REACT_APP_MONGO_URL)
