@@ -7,7 +7,7 @@ export default function CustomLogo() {
     <div className="flex flex-col items-center justify-center ">
       
       {/* Outer container with a fixed max width of 1280px */}
-      <div className="w-full max-w-[1280px] px-4 bg-[#F7F3E8] pt-[60px] pb-[200px]">
+      <div className="w-full max-w-[1280px] px-4 bg-[#F7F3E8] pt-[60px] pb-[50px]">
         
         {/* Logo Section */}
         <div className="flex justify-center">
