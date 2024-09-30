@@ -43,7 +43,7 @@ export default function Proadd() {
               <div key={index} className="mt-4 rounded-md shadow-md bg-[#F5E9C8] flex items-center justify-center pt-4 pb-4 w-[800px]">
                
                 <div>
-                    <img src={MALE} alt='hi' className='h-[200px]'></img>
+                    <img src={MALE} alt='hi' className='h-[250px]'></img>
                 </div>
                 <div className='pl-12 text-start'>
                     <h3 className="text-lg font-bold">{`${ad.first_name} ${ad.last_name}`}</h3>
