@@ -1,7 +1,7 @@
 import React from 'react';
 import LOGOB from '../../images/Black.png'; // Assuming this is your logo
 import { FaWhatsapp } from 'react-icons/fa';
-
+//jishdiuw
 export default function CustomLogo() {
   return (
     <div className="flex flex-col items-center justify-center ">
