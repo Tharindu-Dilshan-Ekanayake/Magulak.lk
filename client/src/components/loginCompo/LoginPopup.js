@@ -33,7 +33,7 @@ export default function LoginPopup() {
         </div>
         <div>
           <button type="submit" className="w-full h-12 font-medium text-white bg-yellow-500 rounded-lg hover:bg-yellow-600">
-            LOGIN
+            LOGINn
           </button>
         </div>
       </form>
