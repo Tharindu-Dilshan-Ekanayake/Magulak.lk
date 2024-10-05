@@ -20,6 +20,7 @@ app.use(cookieParser());
 
 //router
 app.use('/add', require('./routes/advertisementRoute'))
+app.use('/user', require('./routes/userRoute'))
 
 
 const port = 8000;
