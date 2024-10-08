@@ -24,6 +24,14 @@ const userSchema = new mongoose.Schema({
  role:{
    type: String,
    required: true
+ },
+ pro:{
+   type:Boolean,
+   default:false
+ },
+ activate:{
+   type:Boolean,
+   default:false
  }
 })
 
