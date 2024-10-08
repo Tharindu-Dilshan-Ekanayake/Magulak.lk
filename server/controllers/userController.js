@@ -3,7 +3,7 @@ const User = require('../models/user')
 //post user database
 const createuser = async (req, res) => {
     try {
-        const {fname, lname, email, phone, password} =req.body;
+        const {fname, lname, email, phone, password, role} =req.body;
 
         //check email is already taken
 
@@ -13,7 +13,8 @@ const createuser = async (req, res) => {
             lname,
             email,
             phone,
-            password
+            password,
+            role
         })
         //save the user to database
         const newUserItem = await newUser.save();
